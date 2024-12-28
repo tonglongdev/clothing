@@ -8,8 +8,8 @@ import AppRoutes from "./routes/AppRoutes.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
-      <Navbar />
       <AppRoutes />
+      <Navbar />
     </BrowserRouter>
   </StrictMode>
 );
